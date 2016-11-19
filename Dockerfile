@@ -2,5 +2,5 @@ FROM alpine:latest
 
 COPY README.md /
 
-CMD echo README.md
+CMD cat README.md
 
